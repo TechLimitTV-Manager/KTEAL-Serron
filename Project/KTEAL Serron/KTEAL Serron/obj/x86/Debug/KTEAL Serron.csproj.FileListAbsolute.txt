@@ -204,3 +204,8 @@ D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\SchedulesPage.g.
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\SchedulesPage.g.cs
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\SchedulesPage.xaml
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\SchedulesPage.xbf
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\Lines\Line14.xbf
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\Lines\Line14.g.i.cs
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\Lines\Line14.g.cs
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\Lines\Line14.xaml
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\Lines\Line14.xbf

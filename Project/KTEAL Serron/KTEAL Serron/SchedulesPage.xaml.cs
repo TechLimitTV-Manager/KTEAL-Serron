@@ -100,7 +100,7 @@ namespace KTEAL_Serron
             }
             else if (Selected.StartsWith("14"))
             {
-                // Frame.Navigate(typeof(Lines.Line14));
+                Frame.Navigate(typeof(Lines.Line14));
             }
             else if (Selected.StartsWith("15"))
             {
