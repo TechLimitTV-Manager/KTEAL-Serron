@@ -8,6 +8,7 @@ using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Core;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -133,7 +134,36 @@ namespace KTEAL_Serron
             {
                 e.Handled = true;
                 rootFrame.GoBack();
+            } else
+            {
+                ShowMsg("Θέλετε να κλείσετε την εφαρμογή ?");
             }
+            
+        }
+
+        private async void ShowMsg(String Msg)
+        {
+            var MyMsg = new Windows.UI.Popups.MessageDialog(Msg);
+            UICommand okBtn = new UICommand("ΝΑΙ");
+            UICommand cancelBtn = new UICommand("ΟΧΙ");
+
+            okBtn.Invoked = OkBtnClick;
+            cancelBtn.Invoked = CancelBtnClick;
+
+            MyMsg.Commands.Add(okBtn);
+            MyMsg.Commands.Add(cancelBtn);
+
+            await MyMsg.ShowAsync();
+        }
+
+        private void CancelBtnClick(IUICommand command)
+        {
+            // Do Nothing
+        }
+
+        private void OkBtnClick(IUICommand command)
+        {
+            Exit();
         }
     }
 }
