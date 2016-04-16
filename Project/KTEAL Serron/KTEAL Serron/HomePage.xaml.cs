@@ -50,7 +50,7 @@ namespace KTEAL_Serron
             {
                 case "Δρομολόγια":
                     {
-                        ShowMsg("Μη διαθέσιμο . . .");
+                        Frame.Navigate(typeof(SchedulesPage));
                         break;
                     }
                 case "Ρυθμίσεις":

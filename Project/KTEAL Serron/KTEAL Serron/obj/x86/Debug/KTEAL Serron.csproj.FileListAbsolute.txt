@@ -115,7 +115,6 @@ D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\System.Xml.Reade
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\System.Xml.XDocument.dll
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\System.Xml.XmlDocument.dll
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\System.Xml.XmlSerializer.dll
-D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\KTEAL Serron.csprojResolveAssemblyReference.cache
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\App.g.i.cs
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\App.g.cs
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\HomePage.g.i.cs
@@ -199,3 +198,9 @@ D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\AboutPage.g.i.cs
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\AboutPage.g.cs
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\AboutPage.xaml
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\AboutPage.xbf
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\SchedulesPage.xbf
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\KTEAL Serron.csprojResolveAssemblyReference.cache
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\SchedulesPage.g.i.cs
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\SchedulesPage.g.cs
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\SchedulesPage.xaml
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\SchedulesPage.xbf

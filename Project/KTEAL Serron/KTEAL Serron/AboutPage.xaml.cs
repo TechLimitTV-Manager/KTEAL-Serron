@@ -32,8 +32,7 @@ namespace KTEAL_Serron
         {
             ContentItems = new String[]
             {
-                "Εκδοση :" + "0.2.2.1",
-                "Περιγραφή : " + "Η εφαρμογή με τα δρομολόγια των ΚΤΕΑΛ Σερρών",
+                "Εκδοση : " + "Alpha",
                 "© 2016 TechLimitTV.eu",
             };
 

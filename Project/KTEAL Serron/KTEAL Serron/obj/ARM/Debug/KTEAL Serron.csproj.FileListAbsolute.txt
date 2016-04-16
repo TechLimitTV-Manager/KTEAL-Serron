@@ -198,3 +198,4 @@ D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\ARM\Debug\qualifiers.txt
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\ARM\Debug\qualifiers.txt.intermediate
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\ARM\Debug\ProjectArchitectures.txt
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\ARM\Debug\KTEAL Serron.csprojResolveAssemblyReference.cache

@@ -150,8 +150,8 @@ namespace KTEAL_Serron
             okBtn.Invoked = OkBtnClick;
             cancelBtn.Invoked = CancelBtnClick;
 
-            MyMsg.Commands.Add(okBtn);
-            MyMsg.Commands.Add(cancelBtn);
+            // MyMsg.Commands.Add(okBtn);
+            // MyMsg.Commands.Add(cancelBtn);
 
             await MyMsg.ShowAsync();
         }
@@ -163,7 +163,7 @@ namespace KTEAL_Serron
 
         private void OkBtnClick(IUICommand command)
         {
-            Exit();
+            Current.Exit();
         }
     }
 }

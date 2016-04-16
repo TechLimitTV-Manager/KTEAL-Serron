@@ -21,10 +21,10 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Margin" />
-      <RootProperty Name="FontSize" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="KTEAL_Serron.AboutPage" />
     <RootType FullName="KTEAL_Serron.MainPage" />
+    <RootType FullName="KTEAL_Serron.SchedulesPage" />
   </Roots.RootTypes>
 </Roots>
