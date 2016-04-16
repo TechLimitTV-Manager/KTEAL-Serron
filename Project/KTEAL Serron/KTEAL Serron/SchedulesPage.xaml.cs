@@ -37,18 +37,18 @@ namespace KTEAL_Serron
                 "2" + " - " + "ΜΗΤΡΟΥΣΙ",
                 "3" + " - " + "ΟΜΟΝΟΙΑ",
                 "4" + " - " + "ΚΑΛΥΒΙΑ",
-                "5" + " - " + "NIKAIA_ΚΤΕΛ",
+                "5" + " - " + "NIKAIA - ΚΤΕΛ",
                 "7" + " - " + "ΚΩΝΣΤΑΝΤΙΝΑΤΟ",
                 "9" + " - " + "ΒΑΛΤΟΤΟΠΙ",
                 "10" + " - " + "TEI από ΜΕΡΑΡΧΙΑΣ",
                 "13" + " - " + "ΛΑΪΚΗ ΑΓΟΡΑ",
-                "14" + " - " + "ΣΦΑΓΕΙΑ - ΤΕΙ -ΚΤΕΛ",
-                "15" + " - " + "ΝΕΟΧΩΡΙ_ΜΟΝΟΒΡΥΣΗ",
+                "14" + " - " + "ΣΦΑΓΕΙΑ - ΤΕΙ - ΚΤΕΛ",
+                "15" + " - " + "ΝΕΟΧΩΡΙ - ΜΟΝΟΒΡΥΣΗ",
                 "16" + " - " + "ΚΡΙΝΟΣ",
                 "17" + " - " + "ΝΕΟ ΣΟΥΛΙ",
                 "18" + " - " + "ΝΟΣΟΚΟΜΕΙΟ",
-                "20" + " - " + "ΑΓΙΟΣ ΙΩΑΝΝΗΣ ΟΙΝΟΥΣΑ",
-                "23" + " - " + "ΒΙΟΜΗΧΑΝΙΚΗ ΠΕΡΟΧΗ"
+                "20" + " - " + "ΑΓΙΟΣ ΙΩΑΝΝΗΣ - ΟΙΝΟΥΣΑ",
+                "23" + " - " + "ΒΙΟΜΗΧΑΝΙΚΗ ΠΕΡΙΟΧΗ"
             };
 
             for (int Counter = 0; Counter < MenuItems.Length; Counter++)
@@ -64,39 +64,39 @@ namespace KTEAL_Serron
 
             if(Selected.StartsWith("1 "))
             {
-                // Frame.Navigate(typeof(Lines.Line01));
+                Frame.Navigate(typeof(Lines.Line1));
             }
             else if(Selected.StartsWith("2 "))
             {
-                // Frame.Navigate(typeof(Lines.Line02));
+                Frame.Navigate(typeof(Lines.Line2));
             }
             else if (Selected.StartsWith("3 "))
             {
-                // Frame.Navigate(typeof(Lines.Line03));
+                Frame.Navigate(typeof(Lines.Line3));
             }
             else if (Selected.StartsWith("4 "))
             {
-                // Frame.Navigate(typeof(Lines.Line04));
+                Frame.Navigate(typeof(Lines.Line4));
             }
             else if (Selected.StartsWith("5 "))
             {
-                // Frame.Navigate(typeof(Lines.Line05));
+                Frame.Navigate(typeof(Lines.Line5));
             }
             else if (Selected.StartsWith("7 "))
             {
-                // Frame.Navigate(typeof(Lines.Line07));
+                Frame.Navigate(typeof(Lines.Line7));
             }
             else if (Selected.StartsWith("9 "))
             {
-                // Frame.Navigate(typeof(Lines.Line09));
+                Frame.Navigate(typeof(Lines.Line9));
             }
             else if (Selected.StartsWith("10"))
             {
-                // Frame.Navigate(typeof(Lines.Line10));
+                Frame.Navigate(typeof(Lines.Line10));
             }
             else if (Selected.StartsWith("13"))
             {
-                // Frame.Navigate(typeof(Lines.Line13));
+                Frame.Navigate(typeof(Lines.Line13));
             }
             else if (Selected.StartsWith("14"))
             {
@@ -104,27 +104,27 @@ namespace KTEAL_Serron
             }
             else if (Selected.StartsWith("15"))
             {
-                // Frame.Navigate(typeof(Lines.Line15));
+                Frame.Navigate(typeof(Lines.Line15));
             }
             else if (Selected.StartsWith("16"))
             {
-                // Frame.Navigate(typeof(Lines.Line16));
+                Frame.Navigate(typeof(Lines.Line16));
             }
             else if (Selected.StartsWith("17"))
             {
-                // Frame.Navigate(typeof(Lines.Line17));
+                Frame.Navigate(typeof(Lines.Line17));
             }
             else if (Selected.StartsWith("18"))
             {
-                // Frame.Navigate(typeof(Lines.Line18));
+                Frame.Navigate(typeof(Lines.Line18));
             }
             else if (Selected.StartsWith("20"))
             {
-                // Frame.Navigate(typeof(Lines.Line20));
+                Frame.Navigate(typeof(Lines.Line20));
             }
             else if (Selected.StartsWith("23"))
             {
-                // Frame.Navigate(typeof(Lines.Line23));
+                Frame.Navigate(typeof(Lines.Line23));
             }
 
         }

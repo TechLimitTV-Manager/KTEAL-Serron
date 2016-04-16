@@ -22,8 +22,10 @@ namespace KTEAL_Serron.Lines
     /// </summary>
     public sealed partial class Line14 : Page
     {
-        String[] Daily, Saturay, Sunday;
+        String[] Daily, Saturday, Sunday;
+
         String CurrentSelection;
+
         public Line14()
         {
             this.InitializeComponent();
@@ -44,7 +46,7 @@ namespace KTEAL_Serron.Lines
             string Temp = "Σάββατο";
             if (CurrentSelection != Temp)
             {
-                fillList(Saturay);
+                fillList(Saturday);
                 CurrentSelection = Temp;
             }
         }
@@ -61,6 +63,7 @@ namespace KTEAL_Serron.Lines
 
         private void Line14_Page_Loading(FrameworkElement sender, object args)
         {
+            Line14_Title.Text = "14 - ΣΦΑΓΕΙΑ - ΤΕΙ - ΚΤΕΛ";
             setTimes();
 
             int AutoSetDay = (int)System.DateTime.Now.DayOfWeek;
@@ -72,8 +75,8 @@ namespace KTEAL_Serron.Lines
             }
             else if (AutoSetDay == 6)
             {
-                fillList(Saturay);
-                CurrentSelection = "Σάββατο";
+                 fillList(Saturday);
+                 CurrentSelection = "Σάββατο";
             }
             else
             {
@@ -118,7 +121,7 @@ namespace KTEAL_Serron.Lines
                 "21:30"
             };
 
-            Saturay = new String[]
+            Saturday = new String[]
             {
                 "7:00",
                 "8:00",
@@ -146,6 +149,7 @@ namespace KTEAL_Serron.Lines
                 "16:45",
                 "18:45"
             };
+
         }
 
         void fillList(String[] Times)

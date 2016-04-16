@@ -33,7 +33,30 @@
       <RootProperty Name="Width" />
       <RootEvent Name="Click" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="TextAlignment" />
+    </RootType>
+    <RootType FullName="KTEAL_Serron.Lines.Line17" />
+    <RootType FullName="KTEAL_Serron.Lines.Line1" />
+    <RootType FullName="KTEAL_Serron.Lines.Line10" />
+    <RootType FullName="KTEAL_Serron.Lines.Line13" />
     <RootType FullName="KTEAL_Serron.Lines.Line14" />
+    <RootType FullName="KTEAL_Serron.Lines.Line15" />
+    <RootType FullName="KTEAL_Serron.Lines.Line16" />
+    <RootType FullName="KTEAL_Serron.Lines.Line18" />
+    <RootType FullName="KTEAL_Serron.Lines.Line2" />
+    <RootType FullName="KTEAL_Serron.Lines.Line20" />
+    <RootType FullName="KTEAL_Serron.Lines.Line23" />
+    <RootType FullName="KTEAL_Serron.Lines.Line3" />
+    <RootType FullName="KTEAL_Serron.Lines.Line4" />
+    <RootType FullName="KTEAL_Serron.Lines.Line5" />
+    <RootType FullName="KTEAL_Serron.Lines.Line7" />
+    <RootType FullName="KTEAL_Serron.Lines.Line9" />
     <RootType FullName="KTEAL_Serron.SchedulesPage" />
   </Roots.RootTypes>
 </Roots>
