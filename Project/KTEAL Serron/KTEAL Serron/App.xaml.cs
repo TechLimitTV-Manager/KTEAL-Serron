@@ -136,7 +136,7 @@ namespace KTEAL_Serron
                 rootFrame.GoBack();
             } else
             {
-                ShowMsg("Θέλετε να κλείσετε την εφαρμογή ?");
+                // ShowMsg("Θέλετε να κλείσετε την εφαρμογή ?");
             }
             
         }
@@ -150,15 +150,15 @@ namespace KTEAL_Serron
             okBtn.Invoked = OkBtnClick;
             cancelBtn.Invoked = CancelBtnClick;
 
-            // MyMsg.Commands.Add(okBtn);
-            // MyMsg.Commands.Add(cancelBtn);
+            MyMsg.Commands.Add(okBtn);
+            MyMsg.Commands.Add(cancelBtn);
 
             await MyMsg.ShowAsync();
         }
 
         private void CancelBtnClick(IUICommand command)
         {
-            // Do Nothing
+            
         }
 
         private void OkBtnClick(IUICommand command)

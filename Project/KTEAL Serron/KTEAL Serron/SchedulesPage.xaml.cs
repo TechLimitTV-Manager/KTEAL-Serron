@@ -57,5 +57,82 @@ namespace KTEAL_Serron
             }
 
         }
+
+        private void Schedules_Menu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            String Selected = Schedules_Menu.SelectedItem.ToString();
+
+            if(Selected.StartsWith("1 "))
+            {
+                // Frame.Navigate(typeof(Lines.Line01));
+            }
+            else if(Selected.StartsWith("2 "))
+            {
+                // Frame.Navigate(typeof(Lines.Line02));
+            }
+            else if (Selected.StartsWith("3 "))
+            {
+                // Frame.Navigate(typeof(Lines.Line03));
+            }
+            else if (Selected.StartsWith("4 "))
+            {
+                // Frame.Navigate(typeof(Lines.Line04));
+            }
+            else if (Selected.StartsWith("5 "))
+            {
+                // Frame.Navigate(typeof(Lines.Line05));
+            }
+            else if (Selected.StartsWith("7 "))
+            {
+                // Frame.Navigate(typeof(Lines.Line07));
+            }
+            else if (Selected.StartsWith("9 "))
+            {
+                // Frame.Navigate(typeof(Lines.Line09));
+            }
+            else if (Selected.StartsWith("10"))
+            {
+                // Frame.Navigate(typeof(Lines.Line10));
+            }
+            else if (Selected.StartsWith("13"))
+            {
+                // Frame.Navigate(typeof(Lines.Line13));
+            }
+            else if (Selected.StartsWith("14"))
+            {
+                // Frame.Navigate(typeof(Lines.Line14));
+            }
+            else if (Selected.StartsWith("15"))
+            {
+                // Frame.Navigate(typeof(Lines.Line15));
+            }
+            else if (Selected.StartsWith("16"))
+            {
+                // Frame.Navigate(typeof(Lines.Line16));
+            }
+            else if (Selected.StartsWith("17"))
+            {
+                // Frame.Navigate(typeof(Lines.Line17));
+            }
+            else if (Selected.StartsWith("18"))
+            {
+                // Frame.Navigate(typeof(Lines.Line18));
+            }
+            else if (Selected.StartsWith("20"))
+            {
+                // Frame.Navigate(typeof(Lines.Line20));
+            }
+            else if (Selected.StartsWith("23"))
+            {
+                // Frame.Navigate(typeof(Lines.Line23));
+            }
+
+        }
+
+        private async void ShowMsg(String MyMsg)
+        {
+            var ShowMsg = new Windows.UI.Popups.MessageDialog(MyMsg);
+            await ShowMsg.ShowAsync();
+        }
     }
 }
