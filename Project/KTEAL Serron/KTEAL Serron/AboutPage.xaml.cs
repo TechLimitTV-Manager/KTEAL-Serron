@@ -32,12 +32,9 @@ namespace KTEAL_Serron
         {
             ContentItems = new String[]
             {
-                "Τίτλος : " + "ΚΤΕΑΛ Σερρών",
+                "Εκδοση :" + "0.2.2.1",
                 "Περιγραφή : " + "Η εφαρμογή με τα δρομολόγια των ΚΤΕΑΛ Σερρών",
-                "",
-                "",
-                "Προγραμματιστής : " + "Ιορδάνης Κωστελίδης",
-                "Εταιρία : " + "TechLimitTV.eu",
+                "© 2016 TechLimitTV.eu",
             };
 
             for(int Counter = 0; Counter < ContentItems.Length; Counter++)
