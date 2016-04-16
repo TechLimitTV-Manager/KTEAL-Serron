@@ -10,9 +10,9 @@
     <Grid x:ConnectionId='2' x:Name="Line2_Grid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image x:ConnectionId='3' x:Name="Line2_Logo" Height="100" Margin="10,10,10,0" VerticalAlignment="Top" Source="ms-appx:///Assets/Logo.png"/>
         <ListView x:ConnectionId='4' x:Name="Line2_List" Margin="10,193,10,10"/>
-        <Button x:ConnectionId='5' x:Name="Line2_Daily_Button" Content="Καθημερινή" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top"                                  Width="119"/>
-        <Button x:ConnectionId='6' x:Name="Line2_Saturday_Button" Content="Σάββατο" HorizontalAlignment="Left" Margin="134,156,0,0" VerticalAlignment="Top"                                     Width="85"/>
-        <Button x:ConnectionId='7' x:Name="Line2_Sunday_Button" Content="Κυριακή" HorizontalAlignment="Left" Margin="224,156,0,0" VerticalAlignment="Top"                                   Width="126"/>
+        <Button x:ConnectionId='5' x:Name="Line2_Daily_Button" Content="Καθημερινή" HorizontalAlignment="Left" Margin="0,156,0,0" VerticalAlignment="Top"                                  Width="128" FontSize="13.333"/>
+        <Button x:ConnectionId='6' x:Name="Line2_Saturday_Button" Content="Σάββατο" HorizontalAlignment="Left" Margin="133,156,0,0" VerticalAlignment="Top"                                     Width="128" FontSize="13.333"/>
+        <Button x:ConnectionId='7' x:Name="Line2_Sunday_Button" Content="Κυριακή" HorizontalAlignment="Left" Margin="266,156,0,0" VerticalAlignment="Top"                                   Width="90" FontSize="13.333"/>
         <TextBlock x:ConnectionId='8' x:Name="Line2_Title" Margin="10,115,10,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="36" TextAlignment="Center"/>
     </Grid>
 </Page>
