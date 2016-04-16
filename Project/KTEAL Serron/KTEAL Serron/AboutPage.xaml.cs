@@ -22,9 +22,28 @@ namespace KTEAL_Serron
     /// </summary>
     public sealed partial class AboutPage : Page
     {
+        String[] ContentItems;
         public AboutPage()
         {
             this.InitializeComponent();
+        }
+
+        private void About_Page_Loading(FrameworkElement sender, object args)
+        {
+            ContentItems = new String[]
+            {
+                "Τίτλος : " + "ΚΤΕΑΛ Σερρών",
+                "Περιγραφή : " + "Η εφαρμογή με τα δρομολόγια των ΚΤΕΑΛ Σερρών",
+                "",
+                "",
+                "Προγραμματιστής : " + "Ιορδάνης Κωστελίδης",
+                "Εταιρία : " + "TechLimitTV.eu",
+            };
+
+            for(int Counter = 0; Counter < ContentItems.Length; Counter++)
+            {
+                About_Content.Items.Add(ContentItems[Counter]);
+            }
         }
     }
 }

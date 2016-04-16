@@ -23,6 +23,7 @@
       <RootProperty Name="Margin" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
+    <RootType FullName="KTEAL_Serron.AboutPage" />
     <RootType FullName="KTEAL_Serron.MainPage" />
   </Roots.RootTypes>
 </Roots>

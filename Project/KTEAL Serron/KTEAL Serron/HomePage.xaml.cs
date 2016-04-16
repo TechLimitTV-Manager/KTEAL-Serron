@@ -59,7 +59,7 @@ namespace KTEAL_Serron
                     }
                 case "Σχετικά με":
                     {
-                        ShowMsg("Μη διαθέσιμο . . .");
+                        Frame.Navigate(typeof(AboutPage));
                         break;
                     }
             }
