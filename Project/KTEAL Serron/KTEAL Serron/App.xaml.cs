@@ -134,36 +134,13 @@ namespace KTEAL_Serron
             {
                 e.Handled = true;
                 rootFrame.GoBack();
-            } else
+            }
+            else
             {
-                // ShowMsg("Θέλετε να κλείσετε την εφαρμογή ?");
+                Application.Current.Exit();
             }
             
         }
 
-        private async void ShowMsg(String Msg)
-        {
-            var MyMsg = new Windows.UI.Popups.MessageDialog(Msg);
-            UICommand okBtn = new UICommand("ΝΑΙ");
-            UICommand cancelBtn = new UICommand("ΟΧΙ");
-
-            okBtn.Invoked = OkBtnClick;
-            cancelBtn.Invoked = CancelBtnClick;
-
-            MyMsg.Commands.Add(okBtn);
-            MyMsg.Commands.Add(cancelBtn);
-
-            await MyMsg.ShowAsync();
-        }
-
-        private void CancelBtnClick(IUICommand command)
-        {
-            
-        }
-
-        private void OkBtnClick(IUICommand command)
-        {
-            Current.Exit();
-        }
     }
 }

@@ -22,7 +22,6 @@ namespace KTEAL_Serron
     /// </summary>
     public sealed partial class AboutPage : Page
     {
-        String[] ContentItems;
         public AboutPage()
         {
             this.InitializeComponent();
@@ -30,16 +29,7 @@ namespace KTEAL_Serron
 
         private void About_Page_Loading(FrameworkElement sender, object args)
         {
-            ContentItems = new String[]
-            {
-                "Εκδοση : " + "Alpha",
-                "© 2016 TechLimitTV.eu",
-            };
-
-            for(int Counter = 0; Counter < ContentItems.Length; Counter++)
-            {
-                About_Content.Items.Add(ContentItems[Counter]);
-            }
+            // Do Nothing
         }
     }
 }

@@ -34,8 +34,8 @@ namespace KTEAL_Serron
             MenuItems = new String[]
             {
                 "Δρομολόγια",
-                "Ρυθμίσεις",
-                "Σχετικά με"
+                "Σχετικά με",
+                "Έξοδος"
             };
 
             for (int Counter = 0; Counter < MenuItems.Length; Counter++)
@@ -53,14 +53,14 @@ namespace KTEAL_Serron
                         Frame.Navigate(typeof(SchedulesPage));
                         break;
                     }
-                case "Ρυθμίσεις":
-                    {
-                        ShowMsg("Μη διαθέσιμο . . .");
-                        break;
-                    }
                 case "Σχετικά με":
                     {
                         Frame.Navigate(typeof(AboutPage));
+                        break;
+                    }
+                case "Έξοδος":
+                    {
+                        Application.Current.Exit();
                         break;
                     }
             }

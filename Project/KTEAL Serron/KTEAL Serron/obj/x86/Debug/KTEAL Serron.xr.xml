@@ -19,11 +19,19 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Source" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="KTEAL_Serron.AboutPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Margin" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
-    <RootType FullName="KTEAL_Serron.AboutPage" />
     <RootType FullName="KTEAL_Serron.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -33,14 +41,6 @@
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
       <RootEvent Name="Click" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="TextAlignment" />
     </RootType>
     <RootType FullName="KTEAL_Serron.Lines.Line17" />
     <RootType FullName="KTEAL_Serron.Lines.Line1" />

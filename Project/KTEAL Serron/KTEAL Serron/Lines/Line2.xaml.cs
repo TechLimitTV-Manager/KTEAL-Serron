@@ -38,6 +38,9 @@ namespace KTEAL_Serron.Lines
             {
                 fillList(Daily);
                 CurrentSelection = Temp;
+                Line2_Daily_Button.IsEnabled = false;
+                Line2_Saturday_Button.IsEnabled = true;
+                Line2_Sunday_Button.IsEnabled = true;
             }
         }
 
@@ -48,6 +51,9 @@ namespace KTEAL_Serron.Lines
             {
                 fillList(Saturday);
                 CurrentSelection = Temp;
+                Line2_Daily_Button.IsEnabled = true;
+                Line2_Saturday_Button.IsEnabled = false;
+                Line2_Sunday_Button.IsEnabled = true;
             }
         }
 
@@ -58,6 +64,9 @@ namespace KTEAL_Serron.Lines
             {
                 fillList(Sunday);
                 CurrentSelection = Temp;
+                Line2_Daily_Button.IsEnabled = true;
+                Line2_Saturday_Button.IsEnabled = true;
+                Line2_Sunday_Button.IsEnabled = false;
             }
         }
 
@@ -71,17 +80,26 @@ namespace KTEAL_Serron.Lines
             if (AutoSetDay == 0)
             {
                 fillList(Sunday);
-                CurrentSelection = "Καθημερινή";
+               CurrentSelection = "Κυριακή";
+                Line2_Daily_Button.IsEnabled = true;
+                Line2_Saturday_Button.IsEnabled = true;
+                Line2_Sunday_Button.IsEnabled = false;
             }
             else if (AutoSetDay == 6)
             {
                 fillList(Saturday);
                 CurrentSelection = "Σάββατο";
+                Line2_Daily_Button.IsEnabled = true;
+                Line2_Saturday_Button.IsEnabled = false;
+                Line2_Sunday_Button.IsEnabled = true;
             }
             else
             {
                 fillList(Daily);
-                CurrentSelection = "Κυριακή";
+                CurrentSelection = "Καθημερινή";
+                Line2_Daily_Button.IsEnabled = false;
+                Line2_Saturday_Button.IsEnabled = true;
+                Line2_Sunday_Button.IsEnabled = true;
             }
         }
 

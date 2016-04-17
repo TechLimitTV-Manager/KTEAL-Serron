@@ -38,6 +38,9 @@ namespace KTEAL_Serron.Lines
             {
                 fillList(Daily);
                 CurrentSelection = Temp;
+                Line4_Daily_Button.IsEnabled = false;
+                Line4_Saturday_Button.IsEnabled = true;
+                Line4_Sunday_Button.IsEnabled = true;
             }
         }
 
@@ -48,6 +51,9 @@ namespace KTEAL_Serron.Lines
             {
                 fillList(Saturday);
                 CurrentSelection = Temp;
+                Line4_Daily_Button.IsEnabled = true;
+                Line4_Saturday_Button.IsEnabled = false;
+                Line4_Sunday_Button.IsEnabled = true;
             }
         }
 
@@ -58,6 +64,9 @@ namespace KTEAL_Serron.Lines
             {
                 fillList(Sunday);
                 CurrentSelection = Temp;
+                Line4_Daily_Button.IsEnabled = true;
+                Line4_Saturday_Button.IsEnabled = true;
+                Line4_Sunday_Button.IsEnabled = false;
             }
         }
 
@@ -71,17 +80,26 @@ namespace KTEAL_Serron.Lines
             if(AutoSetDay == 0)
             {
                 fillList(Sunday);
-                CurrentSelection = "Καθημερινή";
+               CurrentSelection = "Κυριακή";
+                Line4_Daily_Button.IsEnabled = true;
+                Line4_Saturday_Button.IsEnabled = true;
+                Line4_Sunday_Button.IsEnabled = false;
             }
             else if (AutoSetDay == 6)
             {
                  fillList(Saturday);
                  CurrentSelection = "Σάββατο";
+                Line4_Daily_Button.IsEnabled = true;
+                Line4_Saturday_Button.IsEnabled = false;
+                Line4_Sunday_Button.IsEnabled = true;
             }
             else
             {
                 fillList(Daily);
-                CurrentSelection = "Κυριακή";
+                CurrentSelection = "Καθημερινή";
+                Line4_Daily_Button.IsEnabled = false;
+                Line4_Saturday_Button.IsEnabled = true;
+                Line4_Sunday_Button.IsEnabled = true;
             }
         }
 
@@ -90,7 +108,39 @@ namespace KTEAL_Serron.Lines
             Daily = new String[]
             {
                 "-- ΜΕΤΑΒΑΣΗ --",
-                "ΜΗ ΔΙΑΘΕΣΙΜΟ",
+                "6:35",
+                "7:00",
+                "7:30",
+                "8:00",
+                "8:30",
+                "9:00",
+                "9:30",
+                "10:00",
+                "10:30",
+                "11:00",
+                "11:30",
+                "12:00",
+                "12:30",
+                "13:00",
+                "13:30",
+                "14:00",
+                "14:30",
+                "15:00",
+                "15:30",
+                "16:00",
+                "16:30",
+                "17:00",
+                "17:30",
+                "18:00",
+                "18:30",
+                "18:00",
+                "19:30",
+                "20:00",
+                "20:30",
+                "21:00",
+                "21:30",
+                "22:00",
+                "22:30",
                 "-- ΕΠΙΣΤΡΟΦΗ --",
                 "ΜΗ ΔΙΑΘΕΣΙΜΟ"
             };
@@ -98,7 +148,32 @@ namespace KTEAL_Serron.Lines
             Saturday = new String[]
             {
                 "-- ΜΕΤΑΒΑΣΗ --",
-                "ΜΗ ΔΙΑΘΕΣΙΜΟ",
+                "6:35",
+                "7:00",
+                "7:30",
+                "8:00",
+                "8:30",
+                "9:00",
+                "9:30",
+                "10:00",
+                "10:30",
+                "11:00",
+                "11:30",
+                "12:00",
+                "12:30",
+                "13:00",
+                "13:30",
+                "14:00",
+                "14:30",
+                "14:45",
+                "15:15",
+                "16:15",
+                "17:15",
+                "18:15",
+                "19:15",
+                "20:15",
+                "21:15",
+                "22:15",
                 "-- ΕΠΙΣΤΡΟΦΗ --",
                 "ΜΗ ΔΙΑΘΕΣΙΜΟ"
             };
@@ -106,7 +181,18 @@ namespace KTEAL_Serron.Lines
             Sunday = new String[]
             {
                 "-- ΜΕΤΑΒΑΣΗ --",
-                "ΜΗ ΔΙΑΘΕΣΙΜΟ",
+                "6:15",
+                "7:15",
+                "8:15",
+                "10:15",
+                "12:15",
+                "13:15",
+                "14:15",
+                "16:15",
+                "17:15",
+                "18:15",
+                "20:15",
+                "22:15",
                 "-- ΕΠΙΣΤΡΟΦΗ --",
                 "ΜΗ ΔΙΑΘΕΣΙΜΟ"
             };
