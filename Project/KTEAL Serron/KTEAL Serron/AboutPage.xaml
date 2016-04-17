@@ -5,7 +5,7 @@
     xmlns:local="using:KTEAL_Serron"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Loading="About_Page_Loading">
+    mc:Ignorable="d">
 
     <Grid x:Name="About_Grid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image x:Name="About_Logo" Height="100" Margin="10,10,10,0" VerticalAlignment="Top" Source="Assets/Logo.png"/>

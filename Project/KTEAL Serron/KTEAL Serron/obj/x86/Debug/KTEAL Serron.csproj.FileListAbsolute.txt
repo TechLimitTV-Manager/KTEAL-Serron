@@ -1,4 +1,3 @@
-D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\KTEAL Serron.csprojResolveAssemblyReference.cache
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\App.g.i.cs
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\App.g.cs
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\AboutPage.g.i.cs
@@ -284,3 +283,5 @@ D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\Lines\Line20.xbf
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\Lines\Line23.xbf
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\Lines\Line4.xbf
 D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\Lines\Line5.xbf
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\KTEAL Serron.exe.CodeAnalysisLog.xml
+D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\KTEAL Serron.exe.lastcodeanalysissucceeded
