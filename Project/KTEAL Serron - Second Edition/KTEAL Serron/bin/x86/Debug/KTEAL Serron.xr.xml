@@ -22,14 +22,14 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Margin" />
-      <RootProperty Name="TextWrapping" />
       <RootProperty Name="Text" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="TextAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Height" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
-      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="KTEAL_Serron.AboutPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">

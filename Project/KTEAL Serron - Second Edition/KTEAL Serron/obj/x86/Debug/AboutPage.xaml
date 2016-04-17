@@ -9,10 +9,10 @@
 
     <Grid x:ConnectionId='2' x:Name="About_Grid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image x:ConnectionId='3' x:Name="About_Logo" Height="100" Margin="10,10,10,0" VerticalAlignment="Top" Source="Assets/Logo.png"/>
-        <TextBlock x:ConnectionId='4' x:Name="textBlock" Margin="10,115,10,0" TextWrapping="Wrap" Text="Έκδοση : 0.9.5.3-beta" VerticalAlignment="Top" TextAlignment="Center"/>
-        <TextBlock x:ConnectionId='5' x:Name="textBlock_Copy" Margin="10,160,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="© 2012-2016 TechLimitTV.eu" TextAlignment="Center"/>
-        <TextBlock x:ConnectionId='6' x:Name="textBlock_Copy1" Margin="10,140,10,0" TextWrapping="Wrap" Text="Η εφαρμογή είναι γραμμένη σε Visual C#" VerticalAlignment="Top" TextAlignment="Center"/>
-        <TextBlock x:ConnectionId='7' x:Name="textBlock_Copy2" Margin="10,225,10,0" TextWrapping="Wrap" Text="Το λογότυπο ανήκει στην εταιρία ΚΤΕΑΛ Σερρών Α.Ε. και σε καμία περίπτωση δεν το αξιώνουμε ως δικό μας." VerticalAlignment="Top" TextAlignment="Center"/>
+        <TextBlock x:ConnectionId='4' x:Name="About_Version" Margin="10,115,0,0" Text="Έκδοση : 1.1.0.0" TextAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='5' x:Name="About_Dev" Margin="10,140,10,0" Text="Εκδότης : TechLimitTV.eu" TextAlignment="Center"  VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='6' x:Name="About_Hackathon" Margin="10,165,10,0" TextWrapping="WrapWholeWords" Text="Η εφαρμογή αυτή έγινε στο 1ο Hackathon του ΤΕΙ Κεντρικής Μακεδονίας." TextAlignment="Center"  VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='7' x:Name="About_Notice" Margin="10,0,10,233" TextWrapping="WrapWholeWords" Text="Το λογότυπο της εφαρμογής ανήκει στην εταιρία ΚΤΕΑΛ Σερρών Α.Ε. και σε καμία περίπτωση δεν το αξιώνουμε ως δικό μας." TextAlignment="Center" Height="148" VerticalAlignment="Bottom"/>
     </Grid>
 </Page>
 
