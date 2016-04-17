@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Ευκολή και γρήγορη πρόσβαση στα δρομολόγια των ΚΤΕΑΛ Σερρών.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("TechLimitTV.eu")]
-[assembly: AssemblyProduct("KTEAL Serron")]
+[assembly: AssemblyProduct("ΚΤΕΑΛ Σερρών")]
 [assembly: AssemblyCopyright("© 2012-2016 TechLimitTV.eu")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -25,8 +25,8 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.2.0")]
-[assembly: AssemblyFileVersion("1.0.2.0")]
+[assembly: AssemblyVersion("1.3.1.0")]
+[assembly: AssemblyFileVersion("1.3.1.0")]
 [assembly: ComVisible(false)]
 [assembly: NeutralResourcesLanguage("el")]
 

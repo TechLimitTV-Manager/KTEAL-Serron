@@ -1,0 +1,20 @@
+﻿<Page x:ConnectionId='1' x:Name="LineTemplate_Page"
+    x:Class="KTEAL_Serron.LineTemplate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KTEAL_Serron"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"                                    >
+
+    <Grid x:ConnectionId='2' x:Name="LineTemplate_Grid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:ConnectionId='3' x:Name="LineName" Margin="10,10,10,0" TextAlignment="Center" Text="00 - ΤΙΤΛΟΣ" VerticalAlignment="Top" Height="33" Grid.ColumnSpan="2"/>
+        <ComboBox x:ConnectionId='4' x:Name="DaySelector" HorizontalAlignment="Stretch" Margin="10,48,10,0" VerticalAlignment="Top"                                                 Grid.ColumnSpan="2"/>
+        <ListView x:ConnectionId='5' x:Name="NormalLine" HorizontalAlignment="Left" Margin="5,160,0,10" Width="170"/>
+        <ListView x:ConnectionId='6' x:Name="ReturnLine" Margin="0,160,5,10" HorizontalAlignment="Right" Width="170"/>
+        <TextBlock x:ConnectionId='7' x:Name="NormalTitle" Margin="10,135,0,0" Text="Μετάβαση" TextAlignment="Center" VerticalAlignment="Top" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="150"/>
+        <TextBlock x:ConnectionId='8' x:Name="ReturnTitle" Margin="0,135,10,0" Text="Επιστροφή" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" HorizontalAlignment="Right" Width="150"/>
+
+    </Grid>
+</Page>
+

@@ -132,51 +132,21 @@ namespace KTEAL_Serron.KTEAL_Serron_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[21];
+            _typeNameTable = new string[6];
             _typeNameTable[0] = "KTEAL_Serron.AboutPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "KTEAL_Serron.MainPage";
-            _typeNameTable[4] = "KTEAL_Serron.Lines.Line17";
-            _typeNameTable[5] = "KTEAL_Serron.Lines.Line1";
-            _typeNameTable[6] = "KTEAL_Serron.Lines.Line10";
-            _typeNameTable[7] = "KTEAL_Serron.Lines.Line13";
-            _typeNameTable[8] = "KTEAL_Serron.Lines.Line14";
-            _typeNameTable[9] = "KTEAL_Serron.Lines.Line15";
-            _typeNameTable[10] = "KTEAL_Serron.Lines.Line16";
-            _typeNameTable[11] = "KTEAL_Serron.Lines.Line18";
-            _typeNameTable[12] = "KTEAL_Serron.Lines.Line2";
-            _typeNameTable[13] = "KTEAL_Serron.Lines.Line20";
-            _typeNameTable[14] = "KTEAL_Serron.Lines.Line23";
-            _typeNameTable[15] = "KTEAL_Serron.Lines.Line3";
-            _typeNameTable[16] = "KTEAL_Serron.Lines.Line4";
-            _typeNameTable[17] = "KTEAL_Serron.Lines.Line5";
-            _typeNameTable[18] = "KTEAL_Serron.Lines.Line7";
-            _typeNameTable[19] = "KTEAL_Serron.Lines.Line9";
-            _typeNameTable[20] = "KTEAL_Serron.SchedulesPage";
+            _typeNameTable[4] = "KTEAL_Serron.LineTemplate";
+            _typeNameTable[5] = "KTEAL_Serron.SchedulesPage";
 
-            _typeTable = new global::System.Type[21];
+            _typeTable = new global::System.Type[6];
             _typeTable[0] = typeof(global::KTEAL_Serron.AboutPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::KTEAL_Serron.MainPage);
-            _typeTable[4] = typeof(global::KTEAL_Serron.Lines.Line17);
-            _typeTable[5] = typeof(global::KTEAL_Serron.Lines.Line1);
-            _typeTable[6] = typeof(global::KTEAL_Serron.Lines.Line10);
-            _typeTable[7] = typeof(global::KTEAL_Serron.Lines.Line13);
-            _typeTable[8] = typeof(global::KTEAL_Serron.Lines.Line14);
-            _typeTable[9] = typeof(global::KTEAL_Serron.Lines.Line15);
-            _typeTable[10] = typeof(global::KTEAL_Serron.Lines.Line16);
-            _typeTable[11] = typeof(global::KTEAL_Serron.Lines.Line18);
-            _typeTable[12] = typeof(global::KTEAL_Serron.Lines.Line2);
-            _typeTable[13] = typeof(global::KTEAL_Serron.Lines.Line20);
-            _typeTable[14] = typeof(global::KTEAL_Serron.Lines.Line23);
-            _typeTable[15] = typeof(global::KTEAL_Serron.Lines.Line3);
-            _typeTable[16] = typeof(global::KTEAL_Serron.Lines.Line4);
-            _typeTable[17] = typeof(global::KTEAL_Serron.Lines.Line5);
-            _typeTable[18] = typeof(global::KTEAL_Serron.Lines.Line7);
-            _typeTable[19] = typeof(global::KTEAL_Serron.Lines.Line9);
-            _typeTable[20] = typeof(global::KTEAL_Serron.SchedulesPage);
+            _typeTable[4] = typeof(global::KTEAL_Serron.LineTemplate);
+            _typeTable[5] = typeof(global::KTEAL_Serron.SchedulesPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -213,23 +183,8 @@ namespace KTEAL_Serron.KTEAL_Serron_XamlTypeInfo
 
         private object Activate_0_AboutPage() { return new global::KTEAL_Serron.AboutPage(); }
         private object Activate_3_MainPage() { return new global::KTEAL_Serron.MainPage(); }
-        private object Activate_4_Line17() { return new global::KTEAL_Serron.Lines.Line17(); }
-        private object Activate_5_Line1() { return new global::KTEAL_Serron.Lines.Line1(); }
-        private object Activate_6_Line10() { return new global::KTEAL_Serron.Lines.Line10(); }
-        private object Activate_7_Line13() { return new global::KTEAL_Serron.Lines.Line13(); }
-        private object Activate_8_Line14() { return new global::KTEAL_Serron.Lines.Line14(); }
-        private object Activate_9_Line15() { return new global::KTEAL_Serron.Lines.Line15(); }
-        private object Activate_10_Line16() { return new global::KTEAL_Serron.Lines.Line16(); }
-        private object Activate_11_Line18() { return new global::KTEAL_Serron.Lines.Line18(); }
-        private object Activate_12_Line2() { return new global::KTEAL_Serron.Lines.Line2(); }
-        private object Activate_13_Line20() { return new global::KTEAL_Serron.Lines.Line20(); }
-        private object Activate_14_Line23() { return new global::KTEAL_Serron.Lines.Line23(); }
-        private object Activate_15_Line3() { return new global::KTEAL_Serron.Lines.Line3(); }
-        private object Activate_16_Line4() { return new global::KTEAL_Serron.Lines.Line4(); }
-        private object Activate_17_Line5() { return new global::KTEAL_Serron.Lines.Line5(); }
-        private object Activate_18_Line7() { return new global::KTEAL_Serron.Lines.Line7(); }
-        private object Activate_19_Line9() { return new global::KTEAL_Serron.Lines.Line9(); }
-        private object Activate_20_SchedulesPage() { return new global::KTEAL_Serron.SchedulesPage(); }
+        private object Activate_4_LineTemplate() { return new global::KTEAL_Serron.LineTemplate(); }
+        private object Activate_5_SchedulesPage() { return new global::KTEAL_Serron.SchedulesPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -263,121 +218,16 @@ namespace KTEAL_Serron.KTEAL_Serron_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  KTEAL_Serron.Lines.Line17
+            case 4:   //  KTEAL_Serron.LineTemplate
                 userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_Line17;
+                userType.Activator = Activate_4_LineTemplate;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  KTEAL_Serron.Lines.Line1
+            case 5:   //  KTEAL_Serron.SchedulesPage
                 userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_Line1;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 6:   //  KTEAL_Serron.Lines.Line10
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_Line10;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 7:   //  KTEAL_Serron.Lines.Line13
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_Line13;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 8:   //  KTEAL_Serron.Lines.Line14
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_Line14;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 9:   //  KTEAL_Serron.Lines.Line15
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_Line15;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 10:   //  KTEAL_Serron.Lines.Line16
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_Line16;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 11:   //  KTEAL_Serron.Lines.Line18
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_Line18;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 12:   //  KTEAL_Serron.Lines.Line2
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_Line2;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 13:   //  KTEAL_Serron.Lines.Line20
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_Line20;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 14:   //  KTEAL_Serron.Lines.Line23
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_Line23;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 15:   //  KTEAL_Serron.Lines.Line3
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_Line3;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 16:   //  KTEAL_Serron.Lines.Line4
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_Line4;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 17:   //  KTEAL_Serron.Lines.Line5
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_17_Line5;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 18:   //  KTEAL_Serron.Lines.Line7
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_18_Line7;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 19:   //  KTEAL_Serron.Lines.Line9
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_19_Line9;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 20:   //  KTEAL_Serron.SchedulesPage
-                userType = new global::KTEAL_Serron.KTEAL_Serron_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_20_SchedulesPage;
+                userType.Activator = Activate_5_SchedulesPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

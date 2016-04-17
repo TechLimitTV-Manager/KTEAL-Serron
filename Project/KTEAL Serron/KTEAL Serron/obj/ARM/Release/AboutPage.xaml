@@ -9,10 +9,7 @@
 
     <Grid x:ConnectionId='2' x:Name="About_Grid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image x:ConnectionId='3' x:Name="About_Logo" Height="100" Margin="10,10,10,0" VerticalAlignment="Top" Source="Assets/Logo.png"/>
-        <TextBlock x:ConnectionId='4' x:Name="About_Version" Margin="10,115,0,0" Text="Έκδοση : 1.0.0.1" TextAlignment="Center" VerticalAlignment="Top"/>
-        <TextBlock x:ConnectionId='5' x:Name="About_Dev" Margin="10,140,10,0" Text="Εκδότης : TechLimitTV.eu" TextAlignment="Center"  VerticalAlignment="Top"/>
-        <TextBlock x:ConnectionId='6' x:Name="About_Hackathon" Margin="10,165,10,0" TextWrapping="WrapWholeWords" Text="Η εφαρμογή αυτή έγινε στο 1ο Hackathon του ΤΕΙ Κεντρικής Μακεδονίας." TextAlignment="Center"  VerticalAlignment="Top"/>
-        <TextBlock x:ConnectionId='7' x:Name="About_Notice" Margin="10,0,10,10" TextWrapping="WrapWholeWords" Text="Το λογότυπο της εφαρμογής ανήκει στην εταιρία ΚΤΕΑΛ Σερρών Α.Ε. και σε καμία περίπτωση δεν το αξιώνουμε ως δικό μας." TextAlignment="Center" Height="97" VerticalAlignment="Bottom"/>
+        <WebView x:ConnectionId='4' x:Name="About_Content" Margin="10,115,10,10"/>
     </Grid>
 </Page>
 

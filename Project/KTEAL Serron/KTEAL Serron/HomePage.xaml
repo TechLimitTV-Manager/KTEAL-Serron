@@ -9,7 +9,8 @@
 
     <Grid x:Name="Home_Grid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image x:Name="Home_Logo" Height="100" Margin="10,10,10,0" VerticalAlignment="Top" Source="Assets/Logo.png"/>
-        <ListView x:Name="Home_Menu" Margin="10,115,10,10" SelectionChanged="Home_Menu_SelectionChanged"/>
+        <ListView x:Name="Home_Menu" Margin="10,140,10,10" SelectionChanged="Home_Menu_SelectionChanged"/>
+        <TextBlock x:Name="Home_Msg" Margin="10,115,10,0" TextAlignment="Center" Text="Παρακαλώ επιλέξτε κάτι από το μενού" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="a1d24d7f-3d64-470c-ae46-ad05b5352da7" Publisher="CN=TechLimitTV.eu" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="a1d24d7f-3d64-470c-ae46-ad05b5352da7" Publisher="CN=TechLimitTV.eu" Version="1.3.0.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="a1d24d7f-3d64-470c-ae46-ad05b5352da7" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>ΚΤΕΑΛ Σερρών</DisplayName>

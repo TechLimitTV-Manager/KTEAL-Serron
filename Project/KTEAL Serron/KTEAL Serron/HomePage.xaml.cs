@@ -19,17 +19,17 @@ namespace KTEAL_Serron
             AddItems();
         }
 
-        private void AddItems()
+        private void GenerateItems()
         {
             MenuItems = new String[]
             {
                 "Δρομολόγια",
                 "Σχετικά με",
-                "Έξοδος"
+                "Έξοδος",
             };
         }
 
-        private void GenerateItems()
+        private void AddItems()
         {
             for (int Counter = 0; Counter < MenuItems.Length; Counter++)
             {

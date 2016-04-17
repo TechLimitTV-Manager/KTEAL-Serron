@@ -10,25 +10,25 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>a1d24d7f-3d64-470c-ae46-ad05b5352da7</PackageIdentityName>
     <IntermediateOutputPath>D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>D36350114BC6006B3272B3DAEB9A0E00C109153152EDB27908663761392471BE</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>a1d24d7f-3d64-470c-ae46-ad05b5352da7_1.0.0.0_x86__0w3cbdeq57w4g</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>4AF9AEB6C326D1349A04A8B88ED2C958FF5BEDF388F88AFE61140021872B18DB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a1d24d7f-3d64-470c-ae46-ad05b5352da7_1.3.0.0_x86__0w3cbdeq57w4g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a1d24d7f-3d64-470c-ae46-ad05b5352da7_0w3cbdeq57w4g!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a1d24d7f-3d64-470c-ae46-ad05b5352da7</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=TechLimitTV.eu</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.3.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-17T01:01:34.963</Modified>
+      <Modified>2016-04-17T10:44:12.886</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\KTEAL Serron.exe">
       <PackagePath>entrypoint\KTEAL Serron.exe</PackagePath>
-      <Modified>2016-04-17T01:01:29.195</Modified>
+      <Modified>2016-04-17T10:44:06.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\iordkost\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -464,32 +464,32 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2016-04-17T00:30:58.142</Modified>
+      <Modified>2016-04-17T10:25:41.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-16T22:44:50.257</Modified>
+      <Modified>2016-04-17T10:29:26.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-17T00:30:29.076</Modified>
+      <Modified>2016-04-17T10:25:27.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-17T00:30:49.244</Modified>
+      <Modified>2016-04-17T10:25:14.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-17T00:30:38.124</Modified>
+      <Modified>2016-04-17T10:25:33.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-17T00:30:27.497</Modified>
+      <Modified>2016-04-17T10:25:19.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
@@ -502,7 +502,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\KTEAL Serron.xr.xml">
       <PackagePath>KTEAL Serron.xr.xml</PackagePath>
-      <Modified>2016-04-17T00:38:15.005</Modified>
+      <Modified>2016-04-17T10:44:05.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -510,11 +510,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-04-17T01:01:34.195</Modified>
+      <Modified>2016-04-17T10:44:11.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\Core\KTEAL Serron.exe">
       <PackagePath>KTEAL Serron.exe</PackagePath>
-      <Modified>2016-04-17T01:01:34.961</Modified>
+      <Modified>2016-04-17T10:44:12.886</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

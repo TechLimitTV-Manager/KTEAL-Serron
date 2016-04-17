@@ -8,8 +8,9 @@
     mc:Ignorable="d" Loading="Schedules_Page_Loading">
 
     <Grid x:Name="Schedules_Grid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Image x:Name="Schedules_Logo" Height="100" Margin="10,10,10,0" VerticalAlignment="Top" Source="Assets/Logo.png"/>
-        <ListView x:Name="Schedules_Menu" Margin="10,115,10,10" SelectionChanged="Schedules_Menu_SelectionChanged"/>
+
+        <ListView x:Name="Schedules_Menu" Margin="10,35,10,10" SelectionChanged="Schedules_Menu_SelectionChanged"/>
+        <TextBlock x:Name="Schedules_Msg" Margin="10,10,10,0" TextWrapping="Wrap" Text="Επιλέξτε γραμμή" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
