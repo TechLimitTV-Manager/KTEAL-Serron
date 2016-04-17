@@ -1,0 +1,26 @@
+﻿<UserControl
+    x:Class="KTEAL_Serron.Lines.LineControl"
+    
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KTEAL_Serron.Lines"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="400"
+    d:DesignWidth="400">
+
+    <Grid>
+        <StackPanel Background="White">
+            <Border BorderBrush="{x:Null}" Height="45" VerticalAlignment="Top" >
+                <TextBlock x:Name="lineTextBlock" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Αριθμός - Τίτλος" TextAlignment="Center" FontSize="17.333"/>
+            </Border>
+            <ComboBox x:Name="daysComboBox" HorizontalAlignment="Stretch" Height="50" Margin="10,0" SelectionChanged="daysComboBox_SelectionChanged"/>
+        </StackPanel>
+        <ListView x:Name="goingListView" HorizontalAlignment="Left" Margin="10,150,0,10" Width="180"/>
+        <ListView x:Name="returningListView" HorizontalAlignment="Right" Margin="0,150,10,10" Width="180"/>
+        <TextBlock x:Name="goingTextBlock" HorizontalAlignment="Left" Margin="10,125,0,0"  Text="Μετάβαση" VerticalAlignment="Top" TextAlignment="Center" Width="180" FontSize="13.333"/>
+        <TextBlock x:Name="returningTextBlock" Margin="0,125,10,0"  Text="Επιστροφή" VerticalAlignment="Top" TextAlignment="Center" HorizontalAlignment="Right" Width="180" FontSize="13.333"/>
+
+    </Grid>
+</UserControl>

@@ -17,7 +17,7 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>KTEAL Serron_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>BDB11AB9B6C1A4BF6C8BDBA1A3DAA780D312EA28</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>3B1DDF6DF1CCB5212C7399254F50FD18A4EB9A0B</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -105,9 +105,9 @@
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Line.cs" />
-    <Compile Include="LineTemplate.xaml.cs">
-      <DependentUpon>LineTemplate.xaml</DependentUpon>
+    <Compile Include="Lines.cs" />
+    <Compile Include="Lines\LineControl.xaml.cs">
+      <DependentUpon>LineControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SchedulesPage.xaml.cs">
@@ -144,13 +144,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="LineTemplate.xaml">
+    <Page Include="Lines\LineControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SchedulesPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup />
