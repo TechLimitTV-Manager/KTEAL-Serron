@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>a1d24d7f-3d64-470c-ae46-ad05b5352da7</PackageIdentityName>
     <IntermediateOutputPath>D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>0A6CD3E8DAB74F867C188EFF4AC82F3DBC0AA188594D14FBC7A102DDE713B0E6</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>1B5F1DB463006F6B4E5841A4E770D76BC34DCDF99E7D47A8B867BA3C1A3A6F66</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a1d24d7f-3d64-470c-ae46-ad05b5352da7_0.9.5.0_x86__0w3cbdeq57w4g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a1d24d7f-3d64-470c-ae46-ad05b5352da7_0w3cbdeq57w4g!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a1d24d7f-3d64-470c-ae46-ad05b5352da7</RegisteredPackageID>
@@ -22,13 +22,13 @@
     <AppXManifest Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-17T13:58:30.989</Modified>
+      <Modified>2016-04-19T16:45:05.288</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\KTEAL Serron.exe">
-      <PackagePath>entrypoint\KTEAL Serron.exe</PackagePath>
-      <Modified>2016-04-17T13:58:27.974</Modified>
+    <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\ΚΤΕΑΛ Σερρών.exe">
+      <PackagePath>entrypoint\ΚΤΕΑΛ Σερρών.exe</PackagePath>
+      <Modified>2016-04-19T16:45:03.674</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\iordkost\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -498,11 +498,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-04-16T22:44:50.296</Modified>
+      <Modified>2016-04-19T09:44:22.133</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\KTEAL Serron.xr.xml">
-      <PackagePath>KTEAL Serron.xr.xml</PackagePath>
-      <Modified>2016-04-17T13:58:27.341</Modified>
+    <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\ΚΤΕΑΛ Σερρών.xr.xml">
+      <PackagePath>ΚΤΕΑΛ Σερρών.xr.xml</PackagePath>
+      <Modified>2016-04-19T16:43:47.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -510,11 +510,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-04-17T13:58:30.623</Modified>
+      <Modified>2016-04-19T16:43:53.105</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\Core\KTEAL Serron.exe">
-      <PackagePath>KTEAL Serron.exe</PackagePath>
-      <Modified>2016-04-17T13:58:30.987</Modified>
+    <AppxPackagedFile Include="D:\KTEAL-Serron\Project\KTEAL Serron\KTEAL Serron\bin\x86\Debug\Core\ΚΤΕΑΛ Σερρών.exe">
+      <PackagePath>ΚΤΕΑΛ Σερρών.exe</PackagePath>
+      <Modified>2016-04-19T16:45:05.287</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -9,6 +9,7 @@ namespace KTEAL_Serron
         {
             this.InitializeComponent();
         }
+
         private void About_Page_Loading(FrameworkElement sender, object args)
         {
             About_Content.NavigateToString(@"

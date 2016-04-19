@@ -1,6 +1,5 @@
 ﻿<UserControl
     x:Class="KTEAL_Serron.Lines.LineControl"
-    
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:KTEAL_Serron.Lines"
@@ -17,10 +16,11 @@
             </Border>
             <ComboBox x:Name="daysComboBox" HorizontalAlignment="Stretch" Height="50" Margin="10,0" SelectionChanged="daysComboBox_SelectionChanged"/>
         </StackPanel>
-        <ListView x:Name="goingListView" HorizontalAlignment="Left" Margin="10,150,0,10" Width="180"/>
-        <ListView x:Name="returningListView" HorizontalAlignment="Right" Margin="0,150,10,10" Width="180"/>
+        <ListView x:Name="goingListView" HorizontalAlignment="Left" Margin="10,150,0,10" Width="186" SelectionChanged="goingListView_SelectionChanged" Loaded="goingListView_Loaded"/>
+        <ListView x:Name="returningListView" HorizontalAlignment="Right" Margin="0,150,10,10" Width="186" SelectionChanged="returningListView_SelectionChanged" Loaded="returningListView_Loaded"/>
         <TextBlock x:Name="goingTextBlock" HorizontalAlignment="Left" Margin="10,125,0,0"  Text="Μετάβαση" VerticalAlignment="Top" TextAlignment="Center" Width="180" FontSize="13.333"/>
         <TextBlock x:Name="returningTextBlock" Margin="0,125,10,0"  Text="Επιστροφή" VerticalAlignment="Top" TextAlignment="Center" HorizontalAlignment="Right" Width="180" FontSize="13.333"/>
+        <TextBlock x:Name="noteTextBlock" Margin="16,102,10,0"  Text="Note" VerticalAlignment="Top" TextAlignment="Center" FontSize="13.333"/>
 
     </Grid>
 </UserControl>
